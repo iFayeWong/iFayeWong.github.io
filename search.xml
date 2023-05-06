@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>衰落信道</title>
+    <title></title>
     <url>/2023/05/06/%E8%A1%B0%E8%90%BD%E4%BF%A1%E9%81%93/</url>
-    <content><![CDATA[<p>无线通信系统的性能主要由无线信道环境所决定，与有线信道相比，无线信道环境受复杂的<strong>反射</strong>、<strong>绕射</strong>、<strong>衍射</strong>等现象影响，具有动态和不可预测的特点。其典型特征是“衰落”。<span id="more"></span></p>
+    <content><![CDATA[<p>无线通信系统的性能主要由无线信道环境所决定。与有线信道相比，无线信道环境受复杂的反射、绕射、衍射等现象所影响，具有动态和不可预测的特点，典型特征是“衰落”。<span id="more"></span></p>
 <h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><h4 id="衰落"><a href="#衰落" class="headerlink" title="衰落"></a>衰落</h4><p>衰落现象，即信号幅度在时间和频率上的波动（非加性的信号波动，是加性噪声外信号恶化的另一种来源），可以由<strong>路径损耗</strong>、<strong>障碍物遮蔽（阴影衰落）</strong>、<strong>多径传播</strong>所引起，被划分为大尺度衰落以及小尺度衰落：</p>
 <ol>
 <li>大尺度衰落<ul>
@@ -20,6 +20,8 @@
 <li>频率选择性：频率选择性衰落、平坦衰落</li>
 <li>时变特性（由多普勒拓展描述）：快衰落、慢衰落</li>
 </ol>
+<h4 id="时变信道"><a href="#时变信道" class="headerlink" title="时变信道"></a>时变信道</h4><p>loading…</p>
+<h2 id="数学模型"><a href="#数学模型" class="headerlink" title="数学模型"></a>数学模型</h2><p>我们聚焦于时变多径信道，其等效低通可表示为<br>$$<br>c(t;\tau)&#x3D;\sum_{k&#x3D;1}^{L(t)} \alpha_k(t)e^{-j2\pi f_c  \tau_k(t)} \delta\left(\tau-\tau_k(t)\right)<br>$$<br>其中 $L(t)$ 为信号传播路径数目， $\alpha_k(t)\in\mathbb{R}$ 为第 $k$ 条路径上接收信道的衰减因子，而 $\tau_k(t)$ 为第 $k$ 条路径的传播延时。注意传输路径数目，以及每条路径的衰减因子、传播延时都因媒质结构的变化而随时间变化。</p>
 ]]></content>
       <categories>
         <category>通信</category>
