@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/05/05/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
+    <title>衰落信道</title>
+    <url>/2023/05/06/%E8%A1%B0%E8%90%BD%E4%BF%A1%E9%81%93/</url>
+    <content><![CDATA[<p>无线通信系统的性能主要由无线信道环境所决定，与有线信道相比，无线信道环境受复杂的<strong>反射</strong>、<strong>绕射</strong>、<strong>衍射</strong>等现象影响，具有动态和不可预测的特点。其典型特征是“衰落”。<span id="more"></span></p>
+<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><h4 id="衰落"><a href="#衰落" class="headerlink" title="衰落"></a>衰落</h4><p>衰落现象，即信号幅度在时间和频率上的波动（非加性的信号波动，是加性噪声外信号恶化的另一种来源），可以由<strong>路径损耗</strong>、<strong>障碍物遮蔽（阴影衰落）</strong>、<strong>多径传播</strong>所引起，被划分为大尺度衰落以及小尺度衰落：</p>
+<ol>
+<li>大尺度衰落<ul>
+<li>路径损耗（关于距离的函数，自由空间传播环境平方衰减）</li>
+<li>阴影衰落（障碍物形成的遮蔽阴影所引起）</li>
+</ul>
+</li>
+<li>小尺度衰落（多径干涉所引起，<strong>短距离</strong>内快速波动）</li>
+</ol>
+<img src="image-20230506142836603.png" style="zoom:50%;" />
 
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>其中，小尺度衰落可根据信道频率选择性或时间上的波动划分为：</p>
+<ol>
+<li>频率选择性：频率选择性衰落、平坦衰落</li>
+<li>时变特性（由多普勒拓展描述）：快衰落、慢衰落</li>
+</ol>
 ]]></content>
+      <categories>
+        <category>通信</category>
+        <category>信道</category>
+      </categories>
+      <tags>
+        <tag>无线信道</tag>
+        <tag>多径</tag>
+        <tag>MIMO</tag>
+      </tags>
   </entry>
 </search>
